@@ -1,0 +1,10 @@
+#!/bin/bash
+./auto-writer
+sudo gitbook build
+cd _book
+sudo git init
+sudo git remote add origin https://github.com/m3blog/m3blog.github.io.git
+sudo git add .
+sudo git commit -m 'site update'
+sudo git push -f origin master
+

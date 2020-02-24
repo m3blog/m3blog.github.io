@@ -1,0 +1,95 @@
+{
+    "title": "Cloud's Blog",
+    "author": "Cloud",
+    "description": "Hello World!",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "我的老巢": "https://cloudcnblog.gitee.io"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        "-search",
+	"-lunr",
+	"pageview-count",
+        "github",
+        "github-buttons",
+        "-donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon",
+	"chapter-fold",
+	"hide-element",
+	"code",
+	"search-pro",
+        "popup"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/mineopensource-soft"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "mineopensource-soft",
+                "repo": "helloMineopensource",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+      
+        
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "favicon":{
+            "shortcut": "https://s2.ax1x.com/2020/02/18/3iqdzD.th.jpg",
+            "bookmark": "https://s2.ax1x.com/2020/02/18/3iqdzD.th.jpg",
+            "appleTouch": "https://s2.ax1x.com/2020/02/18/3iqdzD.th.jpg",
+            "appleTouchMore": {
+                "120x120": "https://s2.ax1x.com/2020/02/18/3iqdzD.th.jpg",
+                "180x180": "https://s2.ax1x.com/2020/02/18/3iqdzD.th.jpg"
+            }
+	 },
+	"hide-element":{
+           [".gitbook-link"]
+
+	}
+
+    
+    }
